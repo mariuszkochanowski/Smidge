@@ -32,6 +32,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smidge.JavaScriptServices",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smidge.Benchmarks", "test\Smidge.Benchmarks\Smidge.Benchmarks.csproj", "{8AA76B60-A92C-41C8-A045-06433E33C40C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smidge.Web.Test", "test\Smidge.Web.Test\Smidge.Web.Test.csproj", "{2CF6F677-DBE5-4AB6-87A9-B92193725928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smidge.Web.Test.Lib", "test\Smidge.Web.Test.Lib\Smidge.Web.Test.Lib.csproj", "{BAB323CB-C419-47C9-9056-7DC1405759A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +66,14 @@ Global
 		{8AA76B60-A92C-41C8-A045-06433E33C40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AA76B60-A92C-41C8-A045-06433E33C40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AA76B60-A92C-41C8-A045-06433E33C40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF6F677-DBE5-4AB6-87A9-B92193725928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF6F677-DBE5-4AB6-87A9-B92193725928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF6F677-DBE5-4AB6-87A9-B92193725928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF6F677-DBE5-4AB6-87A9-B92193725928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB323CB-C419-47C9-9056-7DC1405759A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB323CB-C419-47C9-9056-7DC1405759A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB323CB-C419-47C9-9056-7DC1405759A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB323CB-C419-47C9-9056-7DC1405759A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +85,10 @@ Global
 		{8CBB999A-D071-4B95-B973-E1ECB8661333} = {A5154E3B-762A-4720-A947-C7A3EA25835A}
 		{B00163BB-185E-4C55-BABD-830086316929} = {A5154E3B-762A-4720-A947-C7A3EA25835A}
 		{8AA76B60-A92C-41C8-A045-06433E33C40C} = {46C13455-622B-44B6-A129-F96EADAD24C8}
+		{2CF6F677-DBE5-4AB6-87A9-B92193725928} = {46C13455-622B-44B6-A129-F96EADAD24C8}
+		{BAB323CB-C419-47C9-9056-7DC1405759A8} = {46C13455-622B-44B6-A129-F96EADAD24C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3A09A8E-8743-43D1-8CCF-A0C768BBB5AD}
 	EndGlobalSection
 EndGlobal
