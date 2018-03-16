@@ -7,7 +7,7 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace Smidge.NewFolder
 {
-    /// <summary>
+   /// <summary>
     /// <see cref="ITagHelper"/> implementation targeting &lt;script&gt; elements that supports fallback src paths.
     /// </summary>
     /// <remarks>
@@ -62,12 +62,12 @@ namespace Smidge.NewFolder
             HtmlEncoder htmlEncoder,
             JavaScriptEncoder javaScriptEncoder,
             IUrlHelperFactory urlHelperFactory, IServiceProvider serviceProvider)
-            : base(hostingEnvironment, cache, htmlEncoder, javaScriptEncoder, urlHelperFactory)
+			: base(hostingEnvironment, cache,  htmlEncoder, javaScriptEncoder,urlHelperFactory)
         {
             if (serviceProvider == null) throw new ArgumentNullException(nameof(serviceProvider));
             _serviceProvider = serviceProvider;
         }
-        private IServiceProvider _serviceProvider;
+		private IServiceProvider _serviceProvider;
 
         /// <inheritdoc />
         public override void Process(TagHelperContext context, TagHelperOutput output)
